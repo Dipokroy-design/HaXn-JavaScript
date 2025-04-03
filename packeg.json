@@ -1,0 +1,10 @@
+{
+  "name": "Dipok",
+  "location": "Dhaka",
+  "job": "Software Engenior",
+  "age": "22",
+  "fullLocation": ["Bolidara", "Ranisonkail", "Thakurgoan"],
+  "About": {
+    "fullName": "Dipok Roy"
+  }
+}
