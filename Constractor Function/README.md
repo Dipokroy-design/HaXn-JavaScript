@@ -23,7 +23,7 @@ Now, understand the fundamentals First, you have to make a function you can name
 
 > **note**: You have to add the `new` word to make the `object` if you don’t add the word, it will not work, so you have to add the word.
 
-Constructor Functions in JavaScript are regular functions with the new keyword to create and initialize objects with shared properties and methods. They act as a blueprint for creating multiple instances of objects with the same structure and behavior.
+Constructor Functions in JavaScript are regular functions with the `new` keyword to create and initialize objects with shared properties and methods. They act as a blueprint for creating multiple instances of objects with the same structure and behavior.
 
 ## NEW KEYWORDS
 
