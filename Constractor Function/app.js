@@ -26,3 +26,13 @@ console.log(john.info());
 // let John = new PersonInfo("John", 23, "Java");
 // console.log(John.info());
 // console.log(Dipok.name);
+
+// function Cars(make, model, year, color) {
+//   (this.make = make),
+//     (this.model = model),
+//     (this.year = year),
+//     (this.color = color),
+//     (this.carinfo = function () {
+//       return ` The car make is ${this.make} and the model is ${this.model} and the year is ${this.year} and the color is ${this.color}`;
+//     });
+// }
