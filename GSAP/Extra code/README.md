@@ -5,7 +5,7 @@ How to use GSAP in your JavaScript file is
 
 gsap.Method( Element/Selector, Object{})
 
-This means you first have to write GSAP and then add a method. GSAP has many methods. after writing this, you must add the element you want to animate. Then, start styling with the object 
+- This means you first have to write GSAP and then add a method. GSAP has many methods. after writing this, you must add the element you want to animate. Then, start styling with the object 
 
 gsap.to(".box", {
   x: 100,
@@ -14,7 +14,7 @@ gsap.to(".box", {
 });
 
 
-This is called Gsap.from / Gsap.fromTo method
+This is called Gsap.from / Gsap.fromTo method:-
 
 gsap.fromTo(
   ".box",
@@ -34,7 +34,7 @@ gsap.fromTo(
 
 
 
-Learn More about Strangers
+Learn More about Strangers:-
 gsap.to(“.box”, )
 
 
