@@ -19,3 +19,14 @@ let person1 = Object.create(person, {
 });
 
 console.log(person());
+
+
+
+function validateEmail(email) {
+  const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return re.test(email);
+}
+
+// Example usage:
+console.log(validateEmail("test@example.com")); // true
+console.log(validateEmail("invalid-email")); // false
