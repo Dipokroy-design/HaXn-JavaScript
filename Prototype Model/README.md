@@ -13,4 +13,9 @@ console.log(obj);
 
 1. `obj.__proto__`
 2. `obj.constructor.prototype`
-3. `obj.getPrototypeOf(a)`
+3. `Object.getPrototypeOf(obj)`
+
+```JS
+let type = Object.getPrototypeOf(obj);
+console.log(type);
+```
