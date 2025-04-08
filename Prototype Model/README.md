@@ -19,3 +19,31 @@ console.log(obj);
 let type = Object.getPrototypeOf(obj);
 console.log(type);
 ```
+
+## How to make a prototype method in JavaScript
+
+### => Look at this code
+
+```JS
+// This is the prototype of the object
+Object.prototype.Hello = function () {
+  console.log(this);
+  return this;
+};
+
+let obj = {
+  name: "John",
+  age: 30,
+  pl: "devoloper",
+};
+console.log(obj.pl.Hello());
+// This is the prototype of the object but it is not the same as the object.
+Object.prototype.Hello = function () {
+  console.log(this);
+  return this;
+};
+
+let arr = [1, 2, 3];
+console.log(arr.Hello());
+
+```

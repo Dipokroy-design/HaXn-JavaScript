@@ -4,9 +4,22 @@
 // let type = Object.getPrototypeOf(obj);
 // console.log(type);
 
-Array.prototype.Hello = function () {
+// This is the prototype of the object
+Object.prototype.Hello = function () {
   console.log(this);
-  return this.length;
+  return this;
+};
+
+let obj = {
+  name: "John",
+  age: 30,
+  pl: "devoloper",
+};
+console.log(obj.pl.Hello());
+// This is the prototype of the object but it is not the same as the object.
+Object.prototype.Hello = function () {
+  console.log(this);
+  return this;
 };
 
 let arr = [1, 2, 3];
