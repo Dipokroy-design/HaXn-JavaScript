@@ -102,4 +102,5 @@ class B extends A {}
 | ------------- | ---------------------------------------- | ------------------------------ |
 | Encapsulation | Hide Internal state                      | Closures,`#Private` Fields     |
 | Abstraction   | Hide complexity, expose symple interface | Functions, classes, modules    |
-| Inheritance   | One Interface, different behaivor        | Method overriding, duck typing |
+| Inheritance   | Share behavior from parent to child      | `extends`, prototype chain     |
+| Polymorphism  | One Interface, different behaivor        | Method overriding, duck typing |
