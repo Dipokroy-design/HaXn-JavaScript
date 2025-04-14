@@ -20,7 +20,7 @@ console.log(Dipok);
 
 class SecendPerson extends PersonName {
   constructor(name, age, job) {
-    super(name, age, job); //this mean you don't need to rewrite the keys for new object just call super() method and add the perameters you are done.
+    super(name, age, job); //this mean you don't need to rewrite the keys for new object just call super() method and add the perameters and now you are done.
     // this.job = job;
   }
 }

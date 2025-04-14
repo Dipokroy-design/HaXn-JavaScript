@@ -34,7 +34,7 @@ class Hero {
     this.Name = name;
     this.Level = level;
     this.AboutSuperHero = function () {
-      return `You make my day ${this.Name} and your Level is ${this.Level} Wow`;
+      return `I am ${this.Name} and my Level is ${this.Level} 🦅`;
     };
   }
   greet() {
@@ -52,7 +52,7 @@ class Hero2 extends Hero {
     super("Batman", 100); //remember always do not add the object keys in the super() method if you do that It will through you an error
     this.Age = age;
     this.Info = function () {
-      return `Hay hi ${this.Name} and I you are geting old day by day man look you are ${this.Age}`;
+      return `I am ${this.Name} and my age is ${this.Age}`;
     };
   }
 }
