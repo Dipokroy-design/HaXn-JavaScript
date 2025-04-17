@@ -1,0 +1,17 @@
+.CoolButton {
+  padding: 1rem;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid lightblue;
+  margin: 5rem;
+  cursor: pointer;
+  overflow: hidden;
+}
+.CoolButton:hover {
+  box-shadow: 0.2rem 0.5rem 5px lightskyblue;
+  border-right: 0.2px solid lightblue;
+  border-radius: 1rem;
+  font-size: large;
+  transform: translateY(5px);
+  transition: all ease-in-out 0.3s;
+}
