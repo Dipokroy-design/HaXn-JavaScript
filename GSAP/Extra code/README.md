@@ -7,7 +7,7 @@ How to use GSAP in your JavaScript file is
 
 - This means you first have to write GSAP and then add a method. GSAP has many methods. after writing this, you must add the element you want to animate. Then, start styling with the object
 
-```gsap
+```js
 gsap.to(".box", {
   x: 100,
   duration: 2,
@@ -16,7 +16,7 @@ gsap.to(".box", {
 ```
 
 This is called Gsap.from / Gsap.fromTo method:-
-```gsap
+```js
 gsap.fromTo(
   ".box",
   {
